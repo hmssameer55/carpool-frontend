@@ -1,0 +1,32 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+.login-form{
+ height: fit-content;
+}
+
+.login-container{
+  font-family: 'Poppins',sans-serif;
+  background:#ccc;
+  height: 440px;
+  max-width: 350px;
+  width: 100%;
+  padding: 15px 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.sign-up-text{
+  margin-top: 20px;
+}
+
+@media (max-width: 650px) {
+  .pic-girl {
+    display: none;
+  }
+}

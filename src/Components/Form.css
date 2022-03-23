@@ -1,0 +1,72 @@
+.form{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.h2{
+    text-align: center;
+    color:#495371;
+    font-weight: 600;
+    font-size: 2.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form div{
+    padding: 8px;
+    display: flex;
+    background-color: #495371;
+    margin-right: 5px;
+}
+
+.fa{
+    color: antiquewhite;
+}
+
+.hms div{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.hms{
+    border-radius: 10px;
+}
+
+.search-button{
+    border-radius: 10px;
+}
+
+
+.form div:not(.button){
+    border: 1px solid black;
+}
+
+.user{
+    width: fit-content;
+}
+
+
+
+
+
+/* responsive code */
+
+@media screen and (max-width: 860px){
+    .form{
+        flex-direction: column;
+    }
+    .hms{
+        margin-bottom: 15px;
+    }
+   
+
+}
+
+@media screen and (max-width: 950px){
+    .search-button{
+        margin-top: 5px;
+    }
+}
+
+

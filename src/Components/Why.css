@@ -1,0 +1,32 @@
+.crow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 40px 20px;
+}
+
+.crow h1{
+    font-weight: 700;
+}
+
+.brand-name{
+    color: #3498db;
+}
+
+.crow h4{
+    font-weight: 600;
+}
+
+.crow li{
+    font-size: medium;
+    font-weight: 500;
+}
+
+.crow p{
+    font-size: medium;
+    font-weight: 600;
+}
+

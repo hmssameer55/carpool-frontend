@@ -1,0 +1,142 @@
+.register-container{
+    font-family: 'Poppins',sans-serif;
+    background:#ccc;
+    height: 480px;
+    max-width: 350px;
+    width: 100%;
+    padding: 15px 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+.reg{
+  margin-right:75px ;
+}
+
+
+::selection{
+  background: #ff80bf;
+}
+ 
+.container form .title{
+  font-size: 30px;
+  font-weight: 600;
+  margin: 10px 0 10px 0;
+  position: relative;
+}
+
+.container form .title:before{
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  left: 0px;
+  bottom: 3px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #99004d 0%, #ff0080 100%);
+}
+
+.container form .input-box{
+  width: 100%;
+  height: 45px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.container form .input-box input{
+  width: 100%;
+  height: 100%;
+  outline: none;
+  font-size: 15px;
+  border: none;
+  padding-left: 5px;
+}
+
+.container form .underline::before{
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ccc;
+  left: 0;
+  bottom: 0;
+}
+.container form .underline::after{
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(to right, #99004d 0%, #ff0080 100%);
+  left: 0;
+  bottom: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: all 0.3s ease;
+}
+
+.container form .input-box input:focus ~ .underline::after,
+.container form .input-box input:valid ~ .underline::after{
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.container form .button{
+  margin: 40px 0 20px 0;
+}
+.container .input-box input[type="submit"]{
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.container .input-box input[type="submit"]:hover{
+  letter-spacing: 1px;
+}
+.container .option{
+  font-size: 16px;
+  text-align: center;
+}
+
+.container .facebook a,
+.container .google a{
+  display: block;
+  height: 45px;
+  width: 100%;
+  font-size: 18px;
+  text-decoration: none;
+  padding-left: 20px;
+  line-height: 45px;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.container .facebook i,
+.container .google i{
+  padding-right: 12px;
+  font-size: 20px;
+}
+.container .google a{
+  background: linear-gradient(to right,  #d34836 0%, #dd4b39 100%);
+  margin: 20px 0 15px 0;
+}
+.container .google a:hover{
+  background: linear-gradient(to left,  #d34836  0%, #dd4b39  100%);
+  margin: 20px 0 15px 0;
+}
+.container .facebook a{
+  background: linear-gradient( to right,  #3b5998 0%, #476bb8 100%);
+  margin: 20px 0 50px 0;
+}
+.container .facebook a:hover{
+  background: linear-gradient( to left,  #3b5998 0%, #476bb8 100%);
+  margin: 20px 0 50px 0;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+
+
+

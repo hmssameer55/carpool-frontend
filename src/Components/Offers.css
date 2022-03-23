@@ -1,0 +1,24 @@
+.offers .card{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    background-color: #fff;
+    padding: 10px;
+}
+
+.offers button{
+    width: 100%;
+}
+
+.offers h5{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.offers p{
+    font-size: 1rem;
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+
